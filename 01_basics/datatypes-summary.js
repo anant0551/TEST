@@ -31,7 +31,6 @@ let myobj = {
 const myFunction = function(){
     console.log("hello world");
 }
-
 // console.log(typeof bigumber);
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
