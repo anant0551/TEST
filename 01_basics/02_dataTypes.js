@@ -21,6 +21,8 @@ let isloggedin = false
 
 // object
 
+
+
 console.log(typeof "anant");
 console.log(typeof null);
 console.log(typeof undefined);
