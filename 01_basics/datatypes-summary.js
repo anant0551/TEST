@@ -35,3 +35,28 @@ const myFunction = function(){
 console.log(typeof outsideTemp);
 console.log(typeof myFunction);
 console.log(typeof heros);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Npn Primitive)
+
+let myName = "Anshu_singh"
+let newName = myName
+
+console.log(myName);
+console.log(newName);
+
+
+// example of heap (reference)
+let user = {
+    email: "user@google.com",
+    upi: "user@pytm"
+}
+
+let usertwo = user
+
+usertwo.email = "ananat@gamil.com"
+
+console.log(user.email);
+console.log(usertwo.email);
