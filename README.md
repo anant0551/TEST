@@ -1,2 +1,2 @@
 # TEST
-html ,css,javascript
+@HTML,css,javascript
